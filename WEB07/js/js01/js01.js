@@ -16,8 +16,10 @@ console.log("Sesión js0102");
 -Symbol
 
 tipos de datos object
--IObject
+-Object
+    |const myObject{}
 -Array
+    |const myArray =[];
 
 Funciones
 
@@ -29,6 +31,13 @@ console.log(myObject['edad']);
 const propiedad ='edad';
 console.log(myObject[propiedad]);
 console.log(myObject['5']);
+
+//conversiones de datos de string a number
+/*
+parseInt
+parseFloat
+*/
+//(1025).toString
 
 
 
