@@ -125,19 +125,9 @@ saludo 4  ... saludo x
 tiene que ser con recursión
 */
 
-// ejemplo
-function saludo( cantidad, iteracion=1 ){
-    console.log("saludo" + iteracion);
-    if( iteracion >= cantidad) 
-        return 1;
-    return saludo( cantidad, iteracion+1 );
-}
-saludo(10);
+function saludoConRecursion (a,b, ...){
+    if (a = 10) return " saludo terminado";
 
-function saludoConRecursion (a){
-    if (a < 10)
-    return a + 1
-  
-   
+    return a + saludoConRecursion (a + 1)
 }
-console.log("saludo " + saludoConRecursion(1));
+console.log("saludo "+ saludoConRecursion(1));
