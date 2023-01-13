@@ -23,7 +23,7 @@ console.log(`${datosUsuario.nombre} nos saluda de ${datosUsuario.ciudad}`);
         instrucciones;
     }
     */
-   const respuesta = confirm ("Te gusta shakira?");
+   const respuesta = true //confirm ("Te gusta shakira?");
    console.log (respuesta);
 let mensaje;
 
@@ -207,7 +207,8 @@ switch(queMES){
 }
 console.log (`switch - En el mes de ${mesEscrito} la estacion del año es ${estacionAño}`);
 */
-let queMES = Number(prompt ("Que mes es?"));
+
+let queMES = 12 //Number(prompt ("Que mes es?"));
 let mesEscrito = ''
 estacionAño = '';
 
@@ -221,10 +222,22 @@ if( queMES =='1' ) mesEscrito = "enero" ,estacionAño = 'Invierno';
     else if( queMES == '3'){
         mesEscrito = 'Marzo'; estacionAño ='Primavera'
        }
-    else
     else if( queMES == '4'){
         mesEscrito = 'Abril'; estacionAño ='Primavera'
        }
     estacionAño = 'ese mes no existe'
 
 console.log(` En ${mesEscrito} la estacion es ${estacionAño}`);
+
+
+//---------Refactorizando
+//function factorial( number ){
+  //  if( number < 1) 
+   //     return 1;
+   // return number * factorial( number - 1 )
+//}
+//console.log("Factorial 5 = " + factorial(5) ); //120
+
+//function factorialRefactor( number1)
+//console.log( `Factorial de 5${number1 < 1 ? number1 * factorialRefactor(5)}`)
+
