@@ -194,9 +194,10 @@ alimentosPerecederos.push("Manzanas miércoles");
 console.log("Sacando a la venta " + alimentosPerecederos.shift());
 console.log("Sacando a la venta " + alimentosPerecederos.shift());
 
-
+//usando lifo
 //Tenemos una ferreteria
 const productos = ["desarmadores", "cemento"];
 //agrego luces navideñas
 productos.push("luces navideñas");
+console.log("sacando a la venta " + productos.pop());
 console.log("sacando a la venta " + productos.pop());
