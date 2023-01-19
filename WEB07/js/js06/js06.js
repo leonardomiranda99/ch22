@@ -36,3 +36,21 @@ const encontrarElementos = (nuevoColor) =>{
 }
 encontrarElementos ("blue");
 
+const diferenciaInnerHtmlInnerText = () =>{
+    const element = document.getElementById('titulo');
+    console.log(element.innerHTML);
+    console.log(element.innerText);
+}
+diferenciaInnerHtmlInnerText();
+
+const encontrarElementosByClassName = () => {
+    const elements = document.getElementsByClassName('subtitulo'); //contiene una colección 
+    for (let element of elements)
+    console.log(element.innerHTML);    
+}
+
+//El secttor universal 
+
+const encontrarElementoByQuerySelector = () =>{
+    const element = document.o s
+}
