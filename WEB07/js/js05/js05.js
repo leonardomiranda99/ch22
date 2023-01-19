@@ -143,11 +143,33 @@ console.log("La persona puede votar? " + edadPersona >=18 && mensaje );
 let isOnline = true;
 let isActive = true;
 
-if(isOnLine){
+if( isOnline){
     if (isActive)
-        console.log("Estamos in");
+        console.log("Estamos autorizados");
 }
 if(isOnline && isActive)
     console.log("Estamos in");
-    isOnline && isActive && console.log();
+    
+isOnline && isActive && console.log("Estamos in ");
 
+let edadMiSobrina = 20  
+console.log( edadMiSobrina>18 && "puede votar" );
+
+let numeroDeQuesadillasAComer = "3" ;
+let guisado = "huitlacoche";
+console.log("Monste comerá quesadillas de: " + (numeroDeQuesadillasAComer&&guisado));
+
+let nombreConductor = "";
+let tieneLicenciConducir = true;
+let edadConductor = 50;
+
+const seRentaAuto = nombreConductor && tieneLicenciConducir && edadConductor < 60;
+console.log(seRentaAuto);
+
+const datosQuesadilla = {
+    tortilla: "maiz",
+    pica: "poquito",
+    tieneQueso: true, 
+}
+const picaLaQuesadilla = datosQuesadilla.pica && "pica mucho"
+console.log(picaLaQuesadilla);
